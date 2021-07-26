@@ -1,0 +1,189 @@
+
+
+.formularios{
+    padding: 10px;
+    background:moccasin;
+    width: 100%;
+    margin: 0 auto; /*para centrar*/
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    
+}
+.row{
+    padding: 5px;
+}
+
+.general-text-dis{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+}
+.text-center{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    color: darkred;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+
+}
+
+#cont-Principal{
+    height: 970px;
+    padding: 30px;
+    background-color: moccasin;
+
+
+}
+.cont-resev{
+    
+    border: 3px solid darkred;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 730px;
+    padding: 5px;
+    text-align: center;
+    
+    
+}
+.lado{
+    background: #ADA996;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 688px;
+    width: 610px;
+     display:inline-flex;
+     margin: 10px;
+    border: 2px solid darkred;
+}
+
+.formul-direcciones{
+    height: 520px;
+    width: 410px;
+    border: 3px solid gray;
+    text-align: center;
+
+}
+.inquierda{
+    text-align: left;
+    color:darkred;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 22px;
+    padding-left: 20px;
+}
+.texto{
+    
+    padding-left: 50px;
+    text-align: left;
+    font-family:monospace;
+    font-size: 16x;
+    margin: 3px;
+
+}
+.formulario--grupo-input{
+    position: relative;
+}
+.formulario--input{
+    width: 100%;    
+    background: #fff;
+    border:3px solid transparent;
+    border-radius: 3px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+
+}
+.formulario--input:focus{
+    border:2px solid rgb(189, 185, 185);
+    outline: none;
+    box-shadow:  3px 0px 30px  rgba(163, 163,163, 0.4);
+}
+.formulario--input-error{
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+.formulario--input-error-activo{
+    display: block;
+}
+.formulario--validacion-estado{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.formulario--ckeckbox{
+    margin-right: 10px;
+}
+.formulario--mensaje{
+    height: 45px;
+    line-height: 45px;
+    background-color: #f66060;
+    padding:  0 15px;
+    border-radius: 3px;
+    display: none;
+}
+.formulario--mensaje-activo{
+    display: block;
+}
+.formulario--mensaje p{
+    margin: 0;
+}
+
+.formulario--grupo-btn-enviar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario-btn{
+
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+
+    background-color: black;
+    color: blanchedalmond;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+     transition: .1s ease all;
+}
+.formulario-btn:hover{
+ box-shadow: 3px 0px 30px rgb(189, 185, 185);
+}
+
+.formulario--mensaje-exito{
+    font-size: 14px;
+    color: darkred;
+}
+
+/* VALIDACION 
+*/
+.formulario--grupo-correcto .formulario--validacion-estado{
+    color:#1ed12d;
+    opacity: 1;
+
+}
+.formulario--grupo-incorrecto .formulario--validacion-estado{
+    color:red;
+}
+.formulario--grupo-incorrecto .formulario-label{
+    color:red;
+    opacity: 1;
+}
+
+.formulario--grupo-incorrecto .formulario--input{
+    border: 3px solid red;
+}

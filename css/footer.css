@@ -1,0 +1,36 @@
+/*footer*/
+
+nav img {
+    width: 20px;
+  }
+  .auto{
+  background-color: darkred;
+   text-align: center; 
+   height: 37%;
+  }
+  
+  .redondeado {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding: 8px;
+  }
+  
+  .redondeado:hover {
+    background-color:darkkhaki;
+  }
+  
+  .footer {
+    background-color:black; 
+    text-align: center; 
+    height: 5%;
+    color:ghostwhite
+  }
+.siguenos{
+    color: white; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:35px; 
+    letter-spacing: 2px ;
+    font-weight:inherit;
+  }
+ 

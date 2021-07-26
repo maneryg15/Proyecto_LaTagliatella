@@ -1,0 +1,15 @@
+ 
+.item img{  
+    width: 80%;  
+    height: 100%; 
+    text-align: center;
+    padding-left: 250px;
+    
+   
+}  
+.carousel-inner{  
+    width: 100%;  
+    height: 80%;  
+    text-align:center;
+    background-color:lavender;
+}  

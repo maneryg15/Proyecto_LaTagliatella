@@ -1,0 +1,141 @@
+/*footer*/
+
+nav img {
+    width: 30px;
+  }
+  
+  .redondeado {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    padding: 8px;
+  }
+  
+  .redondeado:hover {
+    background-color:darkkhaki;
+  }
+  
+  .footer {
+    background-color: #ce2b37;
+  }
+  
+/*-------------------------------------*/
+
+#contenido{
+    height: 53%;
+    background: #ffffff;
+    margin: 1em;
+}
+#section{
+    height: 95%;
+    width: 71%;
+    background: #FFFFFF;
+    float: left;
+    margin: 0.5em;
+    
+}
+
+.cursivaparrafo{
+    font-size: 175%;
+}
+.articulo{
+    width: 90%;
+    height: 20%;
+    background: darkred;
+    float: right;
+    margin: 0.5em;
+    border-radius: 1em;
+    color: black;
+    font-family: Times, sans-serif;
+    font-style: italic;
+}
+
+
+
+#aside{
+    height: 95%;
+    width: 20%;
+    background: white;
+    border-radius: 1em;
+    float: right;
+    margin-right: 0.5em;
+}
+.p{
+    text-align: left ;   
+}
+img.izquierda {
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 1em;
+}
+img.derecha {
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 1em;
+}
+img{
+    margin-bottom: 20px;
+}
+.Menu_lateral{
+    width: 2.2rem;
+    height: 2.7rem;
+    background: darkred;
+    border-radius: 0.5rem;
+    position: fixed;
+    top: 80%;
+    right: 5%;
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    transition: right 0.7s;
+}
+.checkbox:checked ~ .Menu_lateral{
+    left: 73%;
+    border-radius: 0 0.5rem 0.5rem 0;   
+}
+.right-panel{
+    width: 25%;
+    height: 100%;
+    background: -webkit-linear-gradient(#8B0000, #8B0000, #8B0000);
+    background: -o-linear-gradient(#8B0000, #8B0000, #8B0000);
+    background: linear-gradient(#8B0000, #8B0000, #8B0000);
+    position: fixed;
+    top: 0;
+    right: -40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: right 0.4s;
+    font-family: 'Lobster', cursive;
+    
+}
+.checkbox:checked ~ .right-panel{
+    right: 0;
+}
+.checkbox{
+    display: none;
+    visibility: hidden;
+}
+ul  a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    font-size: 250%;
+    text-align: center;
+    padding: 0 0.5rem;
+    margin: 1rem 0; 
+}
+li:hover{
+    color: white;
+    border: solid white;
+    border-width: 0 0.5rem;
+}
+#link { color: #010000; }
+
+ 
+  
+

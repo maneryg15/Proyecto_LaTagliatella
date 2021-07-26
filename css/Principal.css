@@ -1,0 +1,41 @@
+.lugares {
+    text-align: center;
+    display: inline-block;
+    background-color: floralwhite;
+    border: 1px solid rgb(114, 122, 122);
+    padding-left: 10px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 5%;
+    padding: 10px;
+}
+
+.contair-plato h2 {
+    background: transparent;
+    font-family: Times, sans-serif;
+    position: relative;
+}
+
+.Contenedor_Lugares {
+    text-align: center;
+    height: 520px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.Contenedor_Lugares::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(../img/53974879-siluetas-de-personas-sentadas-en-las-mesas-en-el-restaurante-o-cafetería-stock-ilustración.jpg);
+    background-size: contain;
+    /*para ajustar la imagen de fondo y que ocupe el bloque y lo rellene*/
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
