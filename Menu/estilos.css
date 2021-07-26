@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-jul-2021, 13:04:40
+    Author     : Manery
+*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image:url(Imagenes/fondo.jpg);
+}
+.navegacion {
+    width: 675px;
+    margin: 30px auto;
+    background: #fff;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.menu >li>a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: blue;
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 400px;
+    visibility: hidden;
+}
+.submenu li a{
+    display: block;
+    padding: 60px;
+    color: #fff;
+    font-family: 'Open Sans';
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    display: block;
+}
+.Letra{
+    position: relative;
+    font-family: 'Edwardian Script ITC';
+    font-size:   400%;
+    color: ivory;
+}
+.Carta{
+    width: 675px;
+    margin: 30px auto;
+    //background-image:url(Imagenes/fondo.jpg);
+    text-align: center;
+    color: #fff;
+    opacity: 100%;   
+}
+.Carta_Menu{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+.boton{
+        float: right;
+}
